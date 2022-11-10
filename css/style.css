@@ -320,5 +320,46 @@ a {
       height: 45vh;
    }
 
+    /* ABOUT TABLET */
+    .about {
+      padding-left: 2%;
+      padding-right: 2%;
+   }
+
+   .about aside {
+      width: 40%;
+   }
+
+   .about > article {
+      width: 100%;
+      justify-content: space-between;
+   }
+
+   .about section {
+      justify-content: space-between;
+      flex-direction: row;
+      column-gap: 2vh;
+   }
+
+   .about p {
+      font-size: 16px
+   }
+
+   .about a {
+      padding: 2%;
+      width: 45%;
+   }
+
+   .about blockquote,
+   .about q,
+   .about cite {
+      padding-left: 1%;
+   }
+
+   .about q {
+      font-size: 16px;
+   }
+   /* ABOUT TABLET END */
+
 }
 /* TABLET VERSION END */
