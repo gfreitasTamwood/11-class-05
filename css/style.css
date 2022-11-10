@@ -320,7 +320,36 @@ a {
       height: 45vh;
    }
 
-    /* ABOUT TABLET */
+   /* FEATURES TABLET */
+   .features {
+      padding-top: 1vh;
+      align-items: center;
+   }
+
+   .features > blockquote {
+      width: 80%;
+      padding-left: 10%;
+      padding-right: 10%;
+   }
+
+   .features > article {
+      width: 96%;
+      justify-content: space-between;
+      flex-direction: row;
+      padding: 0;
+   }
+
+   .features a {
+      width: 24%;
+      text-align: center;
+   }
+
+   .features h3 {
+      width: 70%;
+   }
+   /* FEATURES TABLET END */
+
+   /* ABOUT TABLET */
     .about {
       padding-left: 2%;
       padding-right: 2%;
