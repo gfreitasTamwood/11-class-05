@@ -487,6 +487,26 @@ a {
    }
    /* NAVIGATION DESKTOP END */
 
+   /* FOOTER DESKTOP */
+   footer {
+      align-items: center;
+   }
+
+   footer > article {
+      padding: 2%;
+      flex-direction: row;
+      justify-content: space-between;
+      width: 76%;
+   }
+
+   footer > section {
+      padding-left: 12%;
+      padding-right: 12%;
+      width: 76%;
+      justify-content: space-between;
+   }
+   /* FOOTER DESKTOP END */
+
    /* FEATURES DESKTOP */
    .features {
       padding-top: 2vh;
