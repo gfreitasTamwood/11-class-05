@@ -467,6 +467,10 @@ a {
 /* DESKTOP VERSION */
 @media (min-width: 1000px) {
 
+   main {
+      row-gap: 1vh;
+   }
+
    header {
       height: 60vh;
    }
@@ -525,5 +529,24 @@ a {
       color: var(--defaultGray);
    }
    /* FEATURES DESKTOP END */
+
+   /* ABOUT DESKTOP */
+   .about {
+      padding-top: 2vh;
+      align-items: center;
+   }
+
+   .about > article,
+   .about > section {
+      width: 80%;
+   }
+
+   .about > blockquote {
+      /* padding-left: 0;
+      width: 78%; */
+      width: 80%;
+      box-sizing: border-box;
+   }
+   /* ABOUT DESKTOP END */
 }
 /* DESKTOP VERSION END */
