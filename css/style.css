@@ -313,3 +313,12 @@ a {
    }
    /* ABOUT END */
 }
+
+/* TABLET VERSION */
+@media (min-width: 600px) {
+   header {
+      height: 45vh;
+   }
+
+}
+/* TABLET VERSION END */
