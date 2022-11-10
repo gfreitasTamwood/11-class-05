@@ -313,3 +313,260 @@ a {
    }
    /* ABOUT END */
 }
+
+/* TABLET VERSION */
+@media (min-width: 600px) {
+   header {
+      height: 45vh;
+   }
+
+   /* NAVIGATION TABLET */
+   nav {
+      padding: 3%;
+      flex-direction: row;
+      justify-content: space-between;
+   }
+
+   nav > ul {
+      padding-top: 20px;
+      width: 65%;
+      display: flex;
+      justify-content: space-evenly;
+   }
+
+   nav > aside {
+      display: none;
+   }
+
+   nav li {
+      list-style-type: none;
+   }
+
+   nav a {
+      color: var(--lightBlack);
+   }
+   
+   h1 {
+      font-size: 28px;
+   }
+   /* NAVIGATION TABLET END */
+
+   /* FOOTER TABLET */
+   footer > article {
+      padding-bottom: 2vh;
+   }
+
+   footer > section {
+      padding: 2%;
+      flex-direction: row;
+      justify-content: space-between;
+   }
+
+   footer,
+   footer > article > section,
+   footer > article > article {
+      row-gap: 2vh;
+   }
+
+   footer > article > section {
+      column-gap: 0.5vh;
+   }
+
+   footer a {
+      width: 3vh;
+      height: 3vh;
+   }
+
+   footer aside {
+      row-gap: 1vh;
+   }
+
+   footer h3 {
+      font-size: 20px;
+   }
+
+   form {
+      justify-content: flex-end;
+   }
+
+   /* FOOTER TABLET END */
+
+   /* FEATURES TABLET */
+   .features {
+      padding-top: 1vh;
+      align-items: center;
+   }
+
+   .features > blockquote {
+      width: 80%;
+      padding-left: 10%;
+      padding-right: 10%;
+   }
+
+   .features > article {
+      width: 96%;
+      justify-content: space-between;
+      flex-direction: row;
+      padding: 0;
+   }
+
+   .features a {
+      width: 24%;
+      text-align: center;
+   }
+
+   .features h3 {
+      width: 70%;
+   }
+   /* FEATURES TABLET END */
+
+   /* ABOUT TABLET */
+    .about {
+      padding-left: 2%;
+      padding-right: 2%;
+   }
+
+   .about aside {
+      width: 40%;
+   }
+
+   .about > article {
+      width: 100%;
+      justify-content: space-between;
+   }
+
+   .about section {
+      justify-content: space-between;
+      flex-direction: row;
+      column-gap: 2vh;
+   }
+
+   .about p {
+      font-size: 16px
+   }
+
+   .about a {
+      padding: 2%;
+      width: 45%;
+   }
+
+   .about blockquote,
+   .about q,
+   .about cite {
+      padding-left: 1%;
+   }
+
+   .about q {
+      font-size: 16px;
+   }
+   /* ABOUT TABLET END */
+
+}
+/* TABLET VERSION END */
+
+/* DESKTOP VERSION */
+@media (min-width: 1000px) {
+
+   main {
+      row-gap: 1vh;
+   }
+
+   header {
+      height: 60vh;
+   }
+
+   /* NAVIGATION DESKTOP */
+   nav {
+      justify-content: space-evenly;
+   }
+
+   nav > ul {
+      padding-top: 0;
+      width: 40%;
+      align-items: center;
+   }
+   /* NAVIGATION DESKTOP END */
+
+   /* FOOTER DESKTOP */
+   footer {
+      align-items: center;
+   }
+
+   footer > article {
+      padding: 2%;
+      flex-direction: row;
+      justify-content: space-between;
+      width: 76%;
+   }
+
+   footer > section {
+      padding-left: 12%;
+      padding-right: 12%;
+      width: 76%;
+      justify-content: space-between;
+   }
+   /* FOOTER DESKTOP END */
+
+   /* FEATURES DESKTOP */
+   .features {
+      padding-top: 2vh;
+      row-gap: 0;
+   }
+
+   .features blockquote{
+      padding-top: 2%;
+      padding-bottom: 2%;
+   }
+
+   .features article {
+      width: 70%;
+   }
+
+   .features i {
+      font-size: 60px;
+   }
+
+   .features a {
+      justify-content: space-evenly;
+      padding: 2%;
+      height: 30vh;
+   }
+
+   .features a:hover {
+      background-color: var(--darkerBlack);
+      transition: .3s;
+   }
+
+   .features a:hover > i {
+      color: white;
+   }
+
+   .features a:hover > h3 {
+      color: var(--defaultColor);
+   }
+
+   .features a:hover > p {
+      color: var(--defaultGray);
+   }
+   /* FEATURES DESKTOP END */
+
+   /* ABOUT DESKTOP */
+   .about {
+      padding-top: 2vh;
+      align-items: center;
+   }
+
+   .about > article,
+   .about > section {
+      width: 80%;
+   }
+
+   .about > blockquote {
+      /* padding-left: 0;
+      width: 78%; */
+      width: 80%;
+      box-sizing: border-box;
+   }
+   /* ABOUT DESKTOP END */
+}
+/* DESKTOP VERSION END */
